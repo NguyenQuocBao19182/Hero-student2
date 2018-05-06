@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+
+    <ImageView
+
+        android:id="@+id/image_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/scarlet" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scarlet_switch"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/class_name_textview"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/image_view"
+        android:layout_below="@id/name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K21 CMU TPM6"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/id_textview"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/image_view"
+        android:layout_below="@id/class_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2121119463"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
